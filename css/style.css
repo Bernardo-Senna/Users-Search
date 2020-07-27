@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: rgb(195, 223, 235);
+}
+
+.master-container{
+  margin: 200px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.search-container{
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.result-container{
+  display: flex;
+}
+
+.people-container{
+  width: 450px;
+  padding: 20px;
+  border: 1px solid white;
+}
+.statistics-container{
+  width: 300px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.people-found{
+  display: flex;
+  flex-direction: row;
+}
+
+.people-picture{
+  border-radius: 50%;
+}
+
+.people-name-age{
+  padding-top: 25px;
+  margin-left: 10px;
+}
+
+#inputName{
+  width: 500px;
+}
